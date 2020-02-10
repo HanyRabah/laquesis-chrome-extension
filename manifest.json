@@ -1,0 +1,39 @@
+{
+  "name": "Laquesis Chrome Extension",
+  "manifest_version": 2,
+  "version": "0.1",
+  "description": "To be easily able to change laquesis variations",
+  "homepage_url": "https://laquesis.olx.org/",
+  "permissions": [
+    "cookies",
+    "storage",
+    "notifications",
+    "*://*.dubizzle.com/*",
+    "*://*.dubizzle.space/*",
+    "*://*.dubizzle.pw/*",
+    "*://*.dubizzle.cc/*",
+    "*://*.dubizzle.red/*",
+    "*://*.dubizzle.pro/*",
+    "*://*.dubizzle.tech/*",
+    "*://*.dubizzle.bid/*",
+    "*://*.dubizzle.localhost/*",
+    "activeTab",
+    "declarativeContent"
+  ],
+  "browser_action": {
+    "default_icon": {
+      "16": "images/icons/laquesis_logo_16.png",
+      "32": "images/icons/laquesis_logo_32.png",
+      "48": "images/icons/laquesis_logo_48.png",
+      "128": "images/icons/laquesis_logo_128.png"
+    },
+    "default_title": "Laquesis Chrome Extension",
+    "default_popup": "html/popup.html"
+  },
+  "icons": {
+    "16": "images/icons/laquesis_logo_16.png",
+    "32": "images/icons/laquesis_logo_32.png",
+    "48": "images/icons/laquesis_logo_48.png",
+    "128": "images/icons/laquesis_logo_128.png"
+  }
+}
