@@ -1,13 +1,14 @@
 {
-  "name": "Laquesis Chrome Extension",
+  "name": "Laquesis variation changer",
   "manifest_version": 2,
   "version": "0.1",
-  "description": "To be easily able to change laquesis variations",
+  "description": "Easily change laquesis experiment variation with this simple chrome extension",
   "homepage_url": "https://laquesis.olx.org/",
   "permissions": [
     "cookies",
     "storage",
     "notifications",
+    "activeTab",
     "*://*.dubizzle.com/*",
     "*://*.dubizzle.space/*",
     "*://*.dubizzle.pw/*",
@@ -16,9 +17,7 @@
     "*://*.dubizzle.pro/*",
     "*://*.dubizzle.tech/*",
     "*://*.dubizzle.bid/*",
-    "*://*.dubizzle.localhost/*",
-    "activeTab",
-    "declarativeContent"
+    "*://*.dubizzle.localhost/*"
   ],
   "browser_action": {
     "default_icon": {
